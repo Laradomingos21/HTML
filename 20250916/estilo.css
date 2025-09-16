@@ -1,0 +1,50 @@
+/*universal - Aplica a todos os elementos */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/*.class - Reutilazável em varios elementos */
+.destaque {
+    color: blue;
+    font-weight: bold;
+}
+
+/*#id - Único, para um elemento especifíco */
+#titulo-principal{
+    color: red;
+    text-align: center;
+}
+
+/*Tag - Altera todos os elementos daquela tag */
+p{
+    font-size: 30px;
+    line-height: 1.5; 
+}
+
+/*Seletores compartilhados - Agrupamento de seletores */
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+h4 {
+    /* entre linhas */
+    line-height: 1.5;
+    /* entre letras */
+    letter-spacing: 2px;
+    /* entre palavras */
+    word-spacing: 5px;
+}
+
+img {
+    width: 300px;
+    border: 3px solid red;
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style-type: circle;
+}
