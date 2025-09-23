@@ -1,0 +1,54 @@
+.limenu {
+    background-color: rgb(140, 226, 245);
+    float: left;
+    
+}
+header {
+    background-color: rgb(140, 226, 245);
+    margin-bottom: 1px;
+}
+a {
+    display: block;
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+img{
+    margin-left: 500px;
+    margin-left: 250px;
+    margin-left: 1000px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+    overflow: hidden;
+}
+
+.litipo {
+    list-style-type: disc;
+    padding: 10;
+    margin: 10;
+}
+
+#div {
+    padding: 100px;
+    background-color: rgb(85, 164, 138);
+}
+table {
+        border: 1px solid black;
+        background-color: rgb(85, 164, 138);
+        border-collapse: collapse;
+        width: 700px;
+        height: 1px;
+        padding: 100px;
+        box-align: center;
+        margin-bottom: 20px;
+}
+
+body {
+    background-color: rgb(123, 209, 180);
+}
+
