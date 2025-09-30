@@ -1,0 +1,174 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* ativação do flex para todos os containers */
+/* container flex e itens flex */
+
+.container-flex {
+    display: flex;
+    background-color: rgb(59, 135, 140);
+    gap: 20px;
+}
+
+.item-flex {
+    background-color: rgb(59, 120, 140);
+    padding: 20px;
+
+}
+
+/*2. Direção do Flex (Linha-Padrão)*/
+.direcao-linha {
+    flex-direction: row;
+}
+
+.direcao-coluna {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap; /*Quebra de linha*/
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.justificar-inicio {
+    justify-content: flex start;
+
+}
+
+.justificar-fim {
+    justify-content: end;
+}
+
+.justificar-centro {
+    justify-content: center;
+}
+
+.justificar-space-between {
+    justify-content: space-between;
+}
+
+.justificar-space-around {
+    justify-content: space-around;
+}
+
+.justificar-space-evenly {
+    justify-content: space-evenly;
+}
+
+.alinhar-items .container-flex {
+    height: 300px;
+}
+
+.alinhar-stretch {
+    align-items: stretch;
+}
+
+.alinhar-inicio {
+    align-items: start;
+}
+
+.alinhar-fim {
+    align-items: end;
+}
+
+.alinhar-centro {
+    align-items: center;
+}
+
+.alinhar-baseline {
+    align-items: baseline; /*mantem a linha base*/
+
+}
+.alinhar-conteudo {
+    align-content: center;
+    height: 600px;
+}
+.alinhar-conteudo .caixa {
+    flex:1 0 30%; /*para aumentar e fazer com que surja a quebra de linha*/
+}
+
+.ordem1 {
+    order: 1;
+}
+
+.ordem2 {
+    order: 2;
+}
+
+.ordem3 {
+    order: 3;
+}
+
+.exemplo-grow .item-flex{
+    flex-basis: 100px;
+}
+
+.crescer1{
+    flex-grow: 1;
+}
+
+.crescer2 {
+    flex-grow: 2; /*multiplica pelo flex-basis*/
+}
+
+.alinhar-items-individuais .container-flex {
+    height: 200px;
+}
+
+.self-inicio {
+    align-self: start;
+}
+
+.self-centro {
+    align-self: center;
+}
+
+.self-fim {
+    align-self: flex-end;
+}
+
+.menu-nav {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    
+}
+
+.menu-nav a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    
+}
+
+.menu-nav a{
+    color: rgb(216, 213, 213);
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.responsivo {
+    flex-wrap: wrap;
+}
